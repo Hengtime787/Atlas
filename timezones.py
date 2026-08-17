@@ -4,4 +4,8 @@ dean = {
   "singapore":"Asia/Singapore",
   "missoula":"America/Denver"
 }
-# That's some JSON ass shit right there. Key value pairs are wonderful. ❤️
+
+def getzone(target):
+  return dean.get(target)
+  
+# That's some JSON shit right there. Key value pairs are wonderful. ❤️
