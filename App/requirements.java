@@ -54,6 +54,9 @@ WIFI_ON
 DATA_OFF
 DATA_ON
 
+DND_ON
+DND_OFF # for do not disturb
+
 BRIGHTNESS_UP (custom amount. ask how much by without)
 BRIGHTNESS_DOWN (Same as before i meana above)
 ADAPTIVE_BRIGHTNESS_ON

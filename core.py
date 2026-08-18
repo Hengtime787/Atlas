@@ -5,6 +5,8 @@
  
  # Weather
  #google maps (hopefully with directions spoken by atlas?)
+ #do not disturb
+ # notification readouts.
  ######### WIP ##########
  
  ## Done -- to add and upgrade heavily or not ##
@@ -31,7 +33,7 @@ from datetime import datetime
 
 # Take input make it lowercase
 
-request = input(">").lower()
+request = input("\033[36m~/Atlas Interface/>").lower()
 # input is terminal style now. STT has not been set up yet neither has TTS
 
 # Function to throw stuff at android service #
