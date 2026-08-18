@@ -26,6 +26,7 @@
 # All aboard!
 
 from datetime import datetime
+from intent_engine import resolve
 #from zoneinfo import ZoneInfo
 #My timezones database
 #from timezones import getzone
@@ -40,6 +41,10 @@ request = input("\033[36m~/Atlas Interface/>").lower()
 
 def launch(CONTROL_SURFACE):
   print(CONTROL_SURFACE)
+  
+  hook = resolve(request)
+  print(hook)
+  
  ##### 
  #####for now without service just prints name of module activated. #####
 

@@ -1,3 +1,28 @@
+Weirdmap.□$\¥●
+
+----------  Atlas  ----------
+([] indicates optional depending on user request/prompt.)
+      |
+      |
+  Wake word listener (TDB)
+      |
+    Android Service
+    | 
+  Python Script
+    |
+ Android Service
+    |
+  [Text to Speech (TBD] - (Things like MEDIA playback dont need a voice, just some beeps, handled by the Android Service.)
+
+
+
+
+
+
+
+
+
+
 So... You're desparate for a voice assistant that's not slower than shit,  and doesn't tell jeff besos or sundae pichai exactly what you've been up to. Atlas is just that. Fueled by desparation, Atlas aims to be a great digital assistant.
 
 #MakeJarvisProud

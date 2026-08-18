@@ -5,6 +5,7 @@ COMMANDS = [
     "MEDIA_PAUSE",
     "MEDIA_NEXT",
     "MEDIA_PREVIOUS",
+    "MEDIA_GET",
 
     "VOLUME_UP",
     "VOLUME_DOWN",
@@ -31,3 +32,11 @@ COMMANDS = [
     "WCL",
     "SEARCH",
 ]
+
+# function for resolving or understanding what the fuck that senile human is saying.
+
+def resolve(request):
+    if "pause" in request:
+        return "MEDIA_PAUSE"
+        
+    return "I'm so sick of the tension"

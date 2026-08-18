@@ -19,6 +19,7 @@ MEDIA_PLAY
 MEDIA_PAUSE
 MEDIA_NEXT
 MEDIA_PREVIOUS
+MEDIA_GET (now playing basically)
 
 VOLUME_UP (Custom amount)
 VOLUME_DOWN (Custom amount)
