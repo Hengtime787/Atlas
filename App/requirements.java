@@ -24,6 +24,9 @@ MEDIA_GET (now playing basically)
 VOLUME_UP (Custom amount)
 VOLUME_DOWN (Custom amount)
 
+MUTE_ON
+MUTE_OFF
+
 # TO ADD INTEGRATION
 
 ------------ World Clock -------------

@@ -1,12 +1,15 @@
 ############# Atlas #############
 
 
+
  #### To Do ####
  
  # Weather
  #google maps (hopefully with directions spoken by atlas?)
  #do not disturb
  # notification readouts.
+ # reply tobnotiificationd and messages
+ 
  ######### WIP ##########
  
  ## Done -- to add and upgrade heavily or not ##
@@ -39,11 +42,16 @@ request = input("\033[36m~/Atlas Interface/>").lower()
 
 # Function to throw stuff at android service #
 
-def launch(CONTROL_SURFACE):
-  print(CONTROL_SURFACE)
+#DEP def launch(CONTROL_SURFACE):
+#DEP  print(CONTROL_SURFACE)
   
-  hook = resolve(request)
-  print(hook)
+def launch(hook):
+  print(f"LAUNCH {hook}")
+  
+hook = resolve(request)
+launch(hook)
+  
+
   
  ##### 
  #####for now without service just prints name of module activated. #####
@@ -91,14 +99,14 @@ if "time" in request or "date" in request or "day" in request:
 
   ##### Media #####
   
-elif "play" in request:
-  launch("MEDIA_PLAY")
-elif "pause" in request:
-  launch("MEDIA_PAUSE")
-elif "next song" in request: 
-  launch("MEDIA_NEXT")
-elif "previous song" in request:
-  launch("MEDIA_PREVIOUS")
+#elif "play" in request:
+#  launch("MEDIA_PLAY")
+#elif "pause" in request:
+#  launch("MEDIA_PAUSE")
+#elif "next song" in request: 
+#  launch("MEDIA_NEXT")
+#elif "previous song" in request:
+#  launch("MEDIA_PREVIOUS")
   
   #more add look into apis for ytm and spotify and others maybe even android auto
   
@@ -107,7 +115,8 @@ elif "previous song" in request:
 # elif "battery level"
 
 else:
-  print("X")
+  print("X Gemini in prototype at least")
+  # instes for tenini un h3r3 it 3ould be intvy4 intrbt koeel thint ww8t mwyhr notbuuet pwseee we the lwet rllvwfk whllo4 2y4n 5h3 intentinle tobwrw4ydm vut ror jo3bi wwht otbtinw w wy to mlnotnjudt uee gemini. maybe integrate with onboard ai.
       
 
 #else:

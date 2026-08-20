@@ -1,4 +1,26 @@
-# this file started out as chatgpt generated but it inly took the giant thing i gave it and ripped itnintobthis list so i didnt have to maually copy. id call this not vibe coding but assisted coding ;)
+# HEY, This is from sentance transormers mini lm model okay? attriubute it in he final release!
+from sentence_transformers import SentenceTransformer
+
+model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+
+#sentences = [
+#    "That is a happy person",
+#    "That is a happy dog",
+#    "That is a very happy person",
+#    "Today is a sunny day"
+  #  
+#]
+#
+embeddings = model.encode(sentences)
+
+similarities = model.similarity(embeddings, embeddings)
+print(similarities.shape)
+
+
+
+#All fucking aboard
+from intent_model import MODEL
+# this file started out as chatgpt generated but it inly took the gia""nt thing i gave it and ripped itnintobthis list so i didnt have to maually copy. id call this not vibe coding but assisted coding ;)
 
 COMMANDS = [
     "MEDIA_PLAY",
@@ -9,7 +31,9 @@ COMMANDS = [
 
     "VOLUME_UP",
     "VOLUME_DOWN",
-
+    
+    "MUTE_ON",
+    "MUTE_ON",
     "BATTERY_LEVEL_STATUS_GET",
 # MAKE FAILSAFE
    # "POWER_OFF",
@@ -36,7 +60,3 @@ COMMANDS = [
 # function for resolving or understanding what the fuck that senile human is saying.
 
 def resolve(request):
-    if "pause" in request:
-        return "MEDIA_PAUSE"
-        
-    return "I'm so sick of the tension"

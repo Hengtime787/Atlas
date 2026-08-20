@@ -15,8 +15,13 @@ Weirdmap.□$\¥●
   [Text to Speech (TBD] - (Things like MEDIA playback dont need a voice, just some beeps, handled by the Android Service.)
 
 
-
-
+  Listening indicator
+  -_-_#<3*#[19/<%<×*=*^[><×=<<%${$□♡~♡□
+   
+    blip and show LED light emu when screen is iff maybe like a gren or customisable colour like notifyBhddy. 
+    if the screen is in and they call it:
+    
+    Blur a section, like the top right of the screen to fit the atlas logo and a few coloursm
 
 
 
