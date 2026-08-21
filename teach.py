@@ -1,35 +1,11 @@
-from sentence_transformers import SentenceTransformer
-
-model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
-
-#embeddings = model.encode(sentences)
-
-#similarities = model.similarity(embeddings, embeddings)
-#print(similarities.shape)
-
-
-
-
+# all abord ### redone on 21 aug sgtime
+from sentence_transformers import SentenceTransformer # need pip install as well for this to work
 from training_data import TRAINING_DATA
 
+model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2") # FUCKING LOCKED AND LOADED
 
 
 
 
-Model = {} 
-# we gonna worry about that shit later.
 
-for hook, examples in TRAINING_DATA.items():
-  #tskin the examples
-  print(hook)
-  print(examples)
-  
-  Model[hook] = examples
-  coded = model.encode(examples)
-  #theowin them into a data file
-  with open("intent_model.py", "w") as file:
-      file.write("ENCODED_EXAMPLES = ")
-      file.write(repr(coded)) #representation of model
-  print("Data model complete")
 
-    

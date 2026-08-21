@@ -1,4 +1,4 @@
-## NTS -- SEE IF WUESTION MARKS ARE ALLOWED IN WUERY AND USEFUL -- ##
+
 
 # again this ones started by ai jus thr examples and ibdid other shit
 TRAINING_DATA = {
@@ -37,7 +37,7 @@ TRAINING_DATA = {
         "go to the last song",
     ],
     
-    "MEDIA_MUTE": [
+    "MUTE": [
     "mute the media",
     "mute the music",
     "mute",
@@ -45,7 +45,7 @@ TRAINING_DATA = {
     "turn the media volume off",
 ],
 
-"MEDIA_UNMUTE": [
+"UNMUTE": [
     "unmute the media",
     "unmute the music",
     "unmute",
@@ -107,12 +107,6 @@ TRAINING_DATA = {
     "mobile data off",
 ],
 
-"MOBILE_DATA_ON": [
-    "turn off mobile data",
-    "deactivate mobile data",
-    "mobile data off",
-],
-
 "AIRPLANE_ON": [
     "Switch on flight mode",
     "turn on airplane mode",
@@ -140,7 +134,7 @@ TRAINING_DATA = {
 ## Require Low Confirmation ##
 
 "DND_ON": [
-    "initiate shut up protocol",
+    "initiate ⁸ protocol",
     "turn on do not disturb",
     "do not disturb",
     "do not disturb on",
@@ -175,13 +169,13 @@ TRAINING_DATA = {
     "what's my battery at?",
     "how much charge do i have left?",
     "battery level",
-    "how much battery is there?",
+    "how much battery is there",
     "whats the battery level at?",
 ],
 
 "BATTERY_SAVER_ON": [
     "turn on battery saver",
-    "turn on power saving mode"
+    "turn on power saving mode",
     "battery saver on",
     "start battery saving protocol",
     "initiate battery saving mode",
@@ -280,7 +274,7 @@ TRAINING_DATA = {
 ###  TRIGGER HAPPY CONFIRMATION  ###
 ####################################
 
-"BLACKOUT":#ntfctnmb? # swt1 wthoutvicverifthnconfraswlatinstntspd
+"BLACKOUT": [#ntfctnmb? # swt1 wthoutvicverifthnconfraswlatinstntspd
     "blackout",
     "initiate blackout protocol",
     ],
