@@ -23,11 +23,13 @@ for hook, examples in TRAINING_DATA.items():
   #tskin the examples
   print(hook)
   print(examples)
+  
   Model[hook] = examples
+  coded = model.encode(examples)
   #theowin them into a data file
   with open("intent_model.py", "w") as file:
-      file.write("MODEL = ")
-      file.write(repr(Model)) #representation of model
-  print("Training Model Complete")
+      file.write("ENCODED_EXAMPLES = ")
+      file.write(repr(coded)) #representation of model
+  print("Data model complete")
 
     

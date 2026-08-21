@@ -1,21 +1,3 @@
-# HEY, This is from sentance transormers mini lm model okay? attriubute it in he final release!
-from sentence_transformers import SentenceTransformer
-
-model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
-
-#sentences = [
-#    "That is a happy person",
-#    "That is a happy dog",
-#    "That is a very happy person",
-#    "Today is a sunny day"
-  #  
-#]
-#
-embeddings = model.encode(sentences)
-
-similarities = model.similarity(embeddings, embeddings)
-print(similarities.shape)
-
 
 
 #All fucking aboard
@@ -36,7 +18,7 @@ COMMANDS = [
     "MUTE_ON",
     "BATTERY_LEVEL_STATUS_GET",
 # MAKE FAILSAFE
-   # "POWER_OFF",
+   # DSHUTDOEN",
   #  "LOCK",
   #  "REBOOT",
 
@@ -55,7 +37,7 @@ COMMANDS = [
     "OPEN",
     "WCL",
     "SEARCH",
-]
+] # REDO THIS SHIR INCE REQYIREMENTS.KT IS FINSIHED WS WELL AS TRAIFNING_DATA
 
 # function for resolving or understanding what the fuck that senile human is saying.
 

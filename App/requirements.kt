@@ -42,8 +42,9 @@ BATTERY_SAVER_OFF $
 BATTERY_SAVER_STATUS $
 
 --------------- Power ---------------
-POWER_OFF
-LOCK
+SHUTDOWN
+LOCK\♡|$dwn
+
 REBOOT
 #You can't exactly power on when the phone is off...
 
@@ -55,8 +56,11 @@ BLUETOOTH_ON
 WIFI_OFF
 WIFI_ON
 
-DATA_OFF
-DATA_ON
+MOBILE_DATA_OFF
+MOBILE_DATA_ON
+
+AIRPLANE_ON
+AIRPLANE_OFF
 
 DND_ON
 DND_OFF # for do not disturb

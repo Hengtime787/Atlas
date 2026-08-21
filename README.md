@@ -25,7 +25,7 @@ Weirdmap.□$\¥●
 
 
 
-
+I want Atlas to reboot the phone when *I* tell it to. No confirmations. if it wants bluetooth off then same thing. if it wants power off then confirm and widi or data off then confirm as well.
 
 
 So... You're desparate for a voice assistant that's not slower than shit,  and doesn't tell jeff besos or sundae pichai exactly what you've been up to. Atlas is just that. Fueled by desparation, Atlas aims to be a great digital assistant.
