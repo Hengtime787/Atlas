@@ -60,27 +60,21 @@ TRAINING_DATA = {
     "turn on bluetooth",
     "bluetooth on",
     "turn bluetooth on",
+    "initialise bluetooth service",
 ],
 
 "BLUETOOTH_OFF": [
     "turn off bluetooth",
     "bluetooth off",
     "turn bluetooth off",
+    "deactivate bluetooth service",
 ],
 
-
+    
 # IMPORTANT 
 
 
-
-
-
 # REQUIRE SMAX LEVEL CONFIRMATION #
-
-
-
-
-
 
 
 "WIFI_ON": [
@@ -134,7 +128,7 @@ TRAINING_DATA = {
 ## Require Low Confirmation ##
 
 "DND_ON": [
-    "initiate ⁸ protocol",
+    "initiate shut up protocol",
     "turn on do not disturb",
     "do not disturb",
     "do not disturb on",
@@ -247,6 +241,8 @@ TRAINING_DATA = {
     "shut down",
     "power off",
     "kill all processes",
+    "initiate shutdown",
+    "initiate shutdown procedure"
     "Lights out", #save blackout for ¡¤♤》×₩
         # PRIORITY 1
     
@@ -268,7 +264,7 @@ TRAINING_DATA = {
 "REBOOT": [
     "reboot",
     "restart",
-    "initiate refresh protocol",
+    "initiate reboot",
 ],
 ####################################
 ###  TRIGGER HAPPY CONFIRMATION  ###

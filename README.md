@@ -22,8 +22,9 @@ Weirdmap.□$\¥●
     if the screen is in and they call it:
     
     Blur a section, like the top right of the screen to fit the atlas logo and a few coloursm
-
-
+todo 
+◇Add home assistant integration 
+Add google fit integration ir health connect add nothijg x plugin maybe later.
 
 I want Atlas to reboot the phone when *I* tell it to. No confirmations. if it wants bluetooth off then same thing. if it wants power off then confirm and widi or data off then confirm as well.
 

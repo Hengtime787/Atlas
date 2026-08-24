@@ -1,4 +1,7 @@
 /*
+
+possibly add gesture in app to be able toactivatr atlas with a horizontal swipe of the status bar or something lightweight and very efficient drawing snd shtif basicslly no polling.
+
 Android Service runs battery efficient and reacts to wake word
 Perks up and activates python
 python does its thing and if needed sends shit to android serice like MEDIA_PAUSE 

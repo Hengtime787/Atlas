@@ -32,7 +32,7 @@ COMMANDS = {
 
 "MUTE_OFF": {},
 
-"WCL_<COUNTRY>": {
+"WCL_<Country>": {
     "arg_type": "country"
 },
 
@@ -82,11 +82,11 @@ COMMANDS = {
 
 "ADAPTIVE_BRIGHTNESS_OFF": {},
 
-"OPEN_<APPNAME>": {
+"OPEN_<Appname>": {
     "arg_type": "app"
 },
 
-"SEARCH_<QUERY>": {
+"SEARCH_<Query>": {
     "arg_type": "query"
 },
 
@@ -104,7 +104,8 @@ print("NTIM")
 # if confirmation_level:
 
 ###### add this to the Android layer but maybe here as well.
-# it will stay as an attribute in all that require it just in case.
+
+# it will stay as an attribute in allabs() that require it just in case.
 
 # hey and instead of these shitty if checks below then just do
 
