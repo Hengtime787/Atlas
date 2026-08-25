@@ -37,6 +37,14 @@ TRAINING_DATA = {
         "go to the last song",
     ],
     
+    "MEDIA_GET" [
+        "what song is playing?",
+        "whats this song",
+        "current song playing",
+        "ive never heard this one before!",
+        "whats this called?",
+    ],
+    
     "MUTE": [
     "mute the media",
     "mute the music",

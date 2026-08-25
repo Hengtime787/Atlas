@@ -96,12 +96,12 @@ launch(hook)
     
     
     
-  elif "day" in request or "date" in request:
-    
-    if "today" in request or "date" in request:
-      print(datetime.now().strftime("%B %d, %Y"))
-    elif "day" in request:
-      print(datetime.now().strftime("%A, %B %d, %Y"))
+#  elif "day" in request or "date" in request:
+#    
+#    if "today" in request or "date" in ##request:
+#      print(datetime.now().strftime("%B #%d, %Y"))
+#    elif "day" in request:
+##      print(datetime.now().strftime("%A, %B %d, %Y"))
 
   ##### Media #####
   

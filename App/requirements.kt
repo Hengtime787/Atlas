@@ -79,10 +79,15 @@ OPEN_<Appname> pfx
 
 ---------- Search ----------
 
-SEARCH_ pfx # use ai integration for a search. #most likely use gemini flash 3.5 api
+SEARCH_ pfx use ai integration for a search. #most likely use gemini flash 3.5 api
 
 ÷<£&÷<_%_#8×>$~7€|€●♡~¡{♤\€~}|■●♤~€£&£* Worry About This Last ×>£_£(÷:£<#&£\$□$●€~♡□♡$`€\}€8\€○€♡^%>÷,£&×[>=%7£<÷&)
 
+#<÷<%>£*#*#* PWROSNALITY _'AIRIRIP%&÷>%&%*>×*£*£_${8\$■♡}
 
+MODE where it eill just talk
+
+-_#<#< blip integrstion
+somehow in old python i believe
 */
 

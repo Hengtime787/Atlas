@@ -97,7 +97,7 @@ COMMANDS = {
 #NTIM = Not Implemented
 
 def resolve(request):
-print("NTIM")
+    print("NTIM")
 
 # adding in like response types for this as attributes for the hooks
 

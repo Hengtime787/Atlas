@@ -1,0 +1,13 @@
+<!--Remember the Name-->
+<!--AIU= syntax and permission names-->
+<!-- standard format : <uses-permission android:name="android.permission.x"/>-->
+
+ <!--Permissions-->
+ 
+ <!--  Record Shit -->
+<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+
+<!-- Talk to Updates and maybe gemini and misc shit -->
+<uses-permission android:name="android.permission.INTERNET"/>
+
