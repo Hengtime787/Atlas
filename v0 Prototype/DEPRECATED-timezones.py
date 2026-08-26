@@ -6,6 +6,5 @@ dean = {
 }
 
 def getzone(target):
-  return dean.get(target)
   
 # That's some JSON shit right there. Key value pairs are wonderful. ❤️

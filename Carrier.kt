@@ -17,7 +17,7 @@ intent_engine.kt #/#* take in Resolve() or something
 
 fun Launch(hook) {
 val frigate = Fleet[hook]
-  if frigate == ("NULL") {
+  if (frigate == null) {
     println("ERROR 1"),
     println("Hook not found ")
   }
@@ -32,21 +32,22 @@ val frigate = Fleet[hook]
 
 fun Key() {
 
-   Parked.authLevel == "MAX" {
+  if (Parked.authLevel == "MAX") {
   //  pay for what you've done
   }
-  elif Parked.authLevel == "HIGH" {
+  else if (Parked.authLevel == "HIGH") {
     // In the wasteland of today
   }
-  elif Parked.authLevel == "MED" {
+  else if (Parked.authLevel == "MED") {
     // In the wasteland of today
   }
-  elif Parked.authLevel == "LOW" {
+  else if (Parked.authLevel == "LOW") {
     // In the wasteland of today
   }
-  elif Parked.authLevel == "NONE" {
+  else if (Parked.authLevel == "NONE") {
     // In the wasteland of today
   }
+  
    // NTS //
    
   // MED . Screen is on and unlocked or will prompt unlock
@@ -58,6 +59,15 @@ fun Key() {
     println("authLevel not found/defined.")
   }
 }
+
+  // Response Type //
+if Parked.responseType == "Alert" {
+  // Now in my remains
+}
+else if (Parked.responseType == "Chirp") {
+  // Like an army falling one by one by one
+}
+
   
   // RUNTIME //
   
@@ -66,6 +76,8 @@ fun Main() {
   hook = Resolve(request)
   
   Launch(hook) = Parked
+
+  Key() // Verification Checks
 
   elif Parked.responseType ==
   

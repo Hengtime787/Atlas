@@ -34,6 +34,8 @@ data class Ships(
 
 val Fleet = mapOf(
 
+// Media //
+
   "MEDIA_PLAY" to Ships(
     Action = "its your time.",
     authLevel = "NONE",
@@ -80,6 +82,8 @@ val Fleet = mapOf(
       authLevel = "NONE",
       responseType = "Chirp"
     ), 
+    
+    // Device Control //
   
     "BLUETOOTH_ON" to Ships(
       Action = "Life life life is life is going on.",
@@ -128,7 +132,7 @@ val Fleet = mapOf(
       authLevel = "HIGH",
       responseType = "Blip0"
     ),
-    
+   
     "DND_ON" to Ships(
       Action = "I wanna let go but theres comfort in the panic.",
       authLevel = "NONE",
@@ -141,6 +145,8 @@ val Fleet = mapOf(
       responseType = "Blip0"
     ),
   
+  // Display //
+  
     "ADAPTIVE_BRIGHTNESS_ON" to Ships(
       Action = "There will be a day that you will understand.",
       authLevel = "NONE",
@@ -152,6 +158,8 @@ val Fleet = mapOf(
       authLevel = "NONE",
       responseType = "Blip0"
     ),
+    
+    // Battery //
     
     "BATTERY_LEVEL_STATUS_GET" to Ships(
       Action = "I dont lose i dont win if im wrong then Im halfway right",
@@ -169,6 +177,20 @@ val Fleet = mapOf(
       Action = "There are things rhat we can have but cant keep.",
       authLevel = "LOW",
       responseType = "Blip0"
+    ),
+    
+    // Time and Date //
+    
+    "TIME_CURRENT" to Ships(
+      Action = "It can't be outdone",
+      authLevel = "NONE",
+      responseType "Personality"
+    ),
+    
+    "DATE_CURRENT" to Ships(
+      Action = "God blesses everyone",
+      authLevel = "NONE",
+      responseType "Personality"
     ),
     
     // Require Args //

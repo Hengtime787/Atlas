@@ -132,7 +132,30 @@ TRAINING_DATA = {
 # END SUB MAXIMUM CONFIRMATION##
 ################################
 
+# NO CONFIRMATION THIS IS 25TH
+
+"TIME_CURRENT": [
+    "what's the time?",
+    "what time is it",
+    "current time",
+    "tell my what the time is right now."#return just time time and date is different
+],
+
+"DATE_CURRENT": [
+    "What is today's date?",
+    "Tell me the date",
+    "What day is it?",
+    "What is the date today?",
+    "current date"
+],#its wednesday, january 49th
+
+
+
+
+
+
 # Minor Warning :
+
 ## Require Low Confirmation ##
 
 "DND_ON": [
