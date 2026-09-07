@@ -24,7 +24,7 @@ run action with launch() or like Ships.Launch or something
 // Blueprint
 
 data class Ships(
-  val Action: String = "All we are is talking over each other",
+  val Action: String = "SPECIFY_COMMAND",
   val authLevel: String = "MAX",
   val requiresArg: Boolean = false, 
   val responseType: String = "Chime"
@@ -241,7 +241,7 @@ val Fleet = mapOf(
     "BLACKOUT" to Ships(
       Action = "Don't know why I'm hoping for what I won't receive.",
       authLevel = "TRIGGER_HAPPY",
-      responseType = "Alert"
+      responseType = "Blood"
     )
   
 )

@@ -26,6 +26,12 @@ val frigate = Fleet[hook]
   }
 }
 
+fun Deploy() {
+  println("this should run the action run parked.action")
+  println("Falling for the promise of the emptiness machine.")
+}
+
+
 // TTS FUNCTION HERR
 
 // AUTHENTICATION //
@@ -48,6 +54,20 @@ fun Key() {
     // In the wasteland of today
   }
   
+  fun Inter() {
+    
+    if (Parked.responseType == "Alert") {
+      println(" Sound.chirpy ")
+    }
+    
+    else if (Park.responseType == "Personality") {
+      println("personality engine")
+    }
+    
+    
+  }
+
+  
    // NTS //
    
   // MED . Screen is on and unlocked or will prompt unlock
@@ -59,15 +79,6 @@ fun Key() {
     println("authLevel not found/defined.")
   }
 }
-
-  // Response Type //
-if Parked.responseType == "Alert" {
-  // Now in my remains
-}
-else if (Parked.responseType == "Chirp") {
-  // Like an army falling one by one by one
-}
-
   
   // RUNTIME //
   
@@ -104,22 +115,13 @@ if Ships[hhook.responseType ==
   Personality then tts function weel call it 
   Blip0 off sound general
   Blip1 on sound general
+  Blood
   Alert
   Error
   
   
   
 //somewhetr here have the ifs and elifs for verificationLevel, Action and like some other shit like arg and then pass thst to the jntent engine somehow well make it gige the arg in the firet place like somehow idk how
-
-
-
-
-
-
-
-
-
-
 
 
 
