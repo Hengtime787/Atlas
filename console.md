@@ -1,0 +1,1 @@
+make console version for desktop amctl

@@ -1,4 +1,4 @@
-package atlas
+package com.atlasva
 // NOTE: _[PLCHLDR]_ in comments means refer to PLCHLDR.
 
 /*Import list:
@@ -16,13 +16,18 @@ intent_engine.kt #/#* take in Resolve() or something
 // GET LIBRARY ENTRY //
 
 fun Launch(hook) {
+  
 val frigate = Fleet[hook]
   if (frigate == null) {
-    println("ERROR 1"),
+    println("ERROR 1")
     println("Hook not found ")
+    
   }
-  else { 
-  return(frigate)
+  
+  else {
+     
+    return(frigate)
+  
   }
 }
 
@@ -53,44 +58,83 @@ fun Key() {
   else if (Parked.authLevel == "NONE") {
     // In the wasteland of today
   }
+  else if (Parked.authLevel == "TRIGGER_HAPPY") {
+    // Back when we were still changing for the better
+  }
+  else {
+    println("ERROR 2")
+    println("authLevel not found/defined.")
+  }
+  }
+  
+  // Response
   
   fun Inter() {
     
     if (Parked.responseType == "Alert") {
-      println(" Sound.chirpy ")
+      println(" Sound.Alerty ")
     }
     
-    else if (Park.responseType == "Personality") {
+    else if (Parked.responseType == "Personality") {
       println("personality engine")
     }
     
-    
-  }
+    else if (Parked.responseType == "Chirp") {
+      println("Sound.chirpy")
+    }
 
+    else if (Parked.responseType == "Chime") {
+      println("Sound.chimy")
+    }
+    
+    else if (Parked.responseType == "Blip0") {
+      println("Sound.Blippy0")
+    }
+    
+    else if (Parked.responseType == "Blip1") {
+      println("Sound.Blippy1")
+    }
+    
+    else if (Parked.responseType == "Blood") {
+      println("Sound.Bloody")
+    }
+     
+    else {
+    println("sound.Errory")
+    println("ERROR 3")
+    println("RESPONSE TYPE NOT FOUND/DEFINED")
+  }
   
+}
+    
    // NTS //
    
   // MED . Screen is on and unlocked or will prompt unlock
   
-  //\\ NTS \\//
-  
-  else {
-    println("ERROR 2"),
-    println("authLevel not found/defined.")
-  }
-}
+  //\\ NTS \\//  
+
   
   // RUNTIME //
   
 fun Main() {
   
-  hook = Resolve(request)
+  // hook = Resolve(request) //This is the real final intent
+  hook = Rkesolve(request) // this is for keywrod
   
   Launch(hook) = Parked
 
+  /*%^65*/ println(Parked)
+  
   Key() // Verification Checks
+  
+  Inter() // Sound Checks
+  
+   
 
-  elif Parked.responseType ==
+// for debug mode have key and inter run a serises of prints for their values  
+  
+  
+  // here will be function to execute the action. AFTER verifying all verification is 100% valid.
   
   
 //  if Fleet[hook].authLevel == "MAX"
@@ -101,29 +145,4 @@ fun Main() {
 /*  
   MAKE SOME BEEP WHEN REQUIRING CONFIRMATION RECOGNISABLE
   */
-  
-  elif HIGH
-    med + need second biometric confirmation
-  elif LOW:
-    if screen is on then just do it if not ask
-  elif TRIGGER_HAPPY :
-  INITIATE IMMEDIATLY
-if Ships[hhook.responseType == 
-
-  Chirp [default]
-  Chime
-  Personality then tts function weel call it 
-  Blip0 off sound general
-  Blip1 on sound general
-  Blood
-  Alert
-  Error
-  
-  
-  
-//somewhetr here have the ifs and elifs for verificationLevel, Action and like some other shit like arg and then pass thst to the jntent engine somehow well make it gige the arg in the firet place like somehow idk how
-
-
-
-
 }

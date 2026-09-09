@@ -1,4 +1,5 @@
-package atlas
+package com.atlasva
 fun Resolve(request) {
-  // Model discerns.
+  // Model discerns. USE SOMETHING NLU:wq
+sdfsdfsdf
 }

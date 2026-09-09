@@ -1,5 +1,4 @@
-package atlas
-
+package com.atlasva
 // This file gonna run the commands, and stores a library of exes and the verification levels and arg requirements. Kinda like concept py.
 
 // Defaults and Blueprint for all vals
@@ -184,13 +183,16 @@ val Fleet = mapOf(
     "TIME_CURRENT" to Ships(
       Action = "It can't be outdone",
       authLevel = "NONE",
-      responseType "Personality"
+      responseType = "Personality" ,
+      requiresArg = true
     ),
     
     "DATE_CURRENT" to Ships(
       Action = "God blesses everyone",
       authLevel = "NONE",
-      responseType "Personality"
+      responseType = "Personality",
+      requiresArg = true
+     
     ),
     
     // Require Args //
@@ -214,7 +216,7 @@ val Fleet = mapOf(
       authLevel = "NONE",
       responseType = "Personality",
       requiresArg = true
-    
+    ),
     
     
     // KILL MODE //

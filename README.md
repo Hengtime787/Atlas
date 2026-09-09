@@ -48,19 +48,21 @@ Preferably Material Expressive without Icon Soup.
 - Quick Panel Activation
 
 ------------### Roadmap ###------------
-
+// later pls add delay estimates in ms
   Wake word is recognized (TBD)
           |
           |
     STT Activated (Possibly Veko)
           |stt gives partial faster
           |
-Atlas Intent Engine (miniLM) interprets
+Atlas Intent Engine (Snips NLU) interprets
         |
         Hook is outputted
           |
           |
       Carrier launches or executes action using Fleet library of ships.
+        |                                         |
+                                                Sound Response (some media play a mp3 file or something)
+                   _| OR |_
         |
-        |
-      RESPONSE PIPELINE - TBD
+      Personality Engine + TTS - TBD

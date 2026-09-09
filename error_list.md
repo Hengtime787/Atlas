@@ -1,2 +1,4 @@
 ERROR 1 - HOOK NOT FOUND.
+_Theoretically these below shouldn't be possible_
 ERROR 2 - AUTHLEVEL NOT FOUND/DEFINED.
+ERROR 3 - RESPONSE TYPE NOT FOUND/DEFINED.
