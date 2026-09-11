@@ -1,4 +1,4 @@
-package com.atlasva
+package com.atlasva.front
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -42,6 +42,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     MyApplicationTheme {
-        Greeting("Android")
+        Greeting("Matthew")
     }
+}
+
+@Composable
+fun AtlasStart() {
+
 }

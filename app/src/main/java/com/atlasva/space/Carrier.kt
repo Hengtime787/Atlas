@@ -1,4 +1,4 @@
-package com.atlasva
+package com.atlasva.space
 // NOTE: _[PLCHLDR]_ in comments means refer to PLCHLDR.
 
 /*Import list:
@@ -7,7 +7,7 @@ intent_engine.kt #/#* take in Resolve() or something
 
 */
 
-/* no more ai */
+/* no more AI */
 // adaption of core.py.
 //heavily modified adaptation lol
 // placeholders are marked by linkin park lyrics
@@ -15,24 +15,19 @@ intent_engine.kt #/#* take in Resolve() or something
 
 // GET LIBRARY ENTRY //
 
-fun Launch(hook) {
-  
+fun Launch(hook: String): Ships {
+
 val frigate = Fleet[hook]
   if (frigate == null) {
     println("ERROR 1")
     println("Hook not found ")
-    
+    throw IllegalStateException("Hook not found ")
   }
-  
-  else {
-     
     return(frigate)
-  
-  }
 }
 
 fun Deploy() {
-  println("this should run the action run parked.action")
+  println("this should run the action run vessel.action")
   println("Falling for the promise of the emptiness machine.")
 }
 
@@ -41,24 +36,24 @@ fun Deploy() {
 
 // AUTHENTICATION //
 
-fun Key() {
+fun Key(vessel: Ships) {
 
-  if (Parked.authLevel == "MAX") {
+  if (vessel.authLevel == "MAX") {
   //  pay for what you've done
   }
-  else if (Parked.authLevel == "HIGH") {
+  else if (vessel.authLevel == "HIGH") {
     // In the wasteland of today
   }
-  else if (Parked.authLevel == "MED") {
+  else if (vessel.authLevel == "MED") {
     // In the wasteland of today
   }
-  else if (Parked.authLevel == "LOW") {
+  else if (vessel.authLevel == "LOW") {
     // In the wasteland of today
   }
-  else if (Parked.authLevel == "NONE") {
+  else if (vessel.authLevel == "NONE") {
     // In the wasteland of today
   }
-  else if (Parked.authLevel == "TRIGGER_HAPPY") {
+  else if (vessel.authLevel == "TRIGGER_HAPPY") {
     // Back when we were still changing for the better
   }
   else {
@@ -66,83 +61,82 @@ fun Key() {
     println("authLevel not found/defined.")
   }
   }
-  
+
   // Response
-  
-  fun Inter() {
-    
-    if (Parked.responseType == "Alert") {
+
+  fun Inter(vessel: Ships) {
+
+    if (vessel.responseType == "Alert") {
       println(" Sound.Alerty ")
     }
-    
-    else if (Parked.responseType == "Personality") {
+
+    else if (vessel.responseType == "Personality") {
       println("personality engine")
     }
-    
-    else if (Parked.responseType == "Chirp") {
+
+    else if (vessel.responseType == "Chirp") {
       println("Sound.chirpy")
     }
 
-    else if (Parked.responseType == "Chime") {
+    else if (vessel.responseType == "Chime") {
       println("Sound.chimy")
     }
-    
-    else if (Parked.responseType == "Blip0") {
+
+    else if (vessel.responseType == "Blip0") {
       println("Sound.Blippy0")
     }
-    
-    else if (Parked.responseType == "Blip1") {
+
+    else if (vessel.responseType == "Blip1") {
       println("Sound.Blippy1")
     }
-    
-    else if (Parked.responseType == "Blood") {
+
+    else if (vessel.responseType == "Blood") {
       println("Sound.Bloody")
     }
-     
+
     else {
     println("sound.Errory")
     println("ERROR 3")
     println("RESPONSE TYPE NOT FOUND/DEFINED")
   }
-  
+
 }
-    
+
    // NTS //
-   
+
   // MED . Screen is on and unlocked or will prompt unlock
-  
-  //\\ NTS \\//  
 
-  
+  //\\ NTS \\//
+
   // RUNTIME //
-  
-fun Main() {
-  
-  // hook = Resolve(request) //This is the real final intent
-  hook = Rkesolve(request) // this is for keywrod
-  
-  Launch(hook) = Parked
+  fun Fly() {
+    val request =
+      "Placeholder for stt input"// do a .strip AND a .lower to that as well (for keyword only!)
+    // hook = Resolve(request) //This is the real final intent
+    val hook = Rkesolve(request) // this is for keyword
 
-  /*%^65*/ println(Parked)
-  
-  Key() // Verification Checks
-  
-  Inter() // Sound Checks
-  
-   
+    val pallet = Launch(hook)
 
-// for debug mode have key and inter run a serises of prints for their values  
-  
-  
-  // here will be function to execute the action. AFTER verifying all verification is 100% valid.
-  
-  
+    /*%^65*/ println(pallet)
+
+    Key(pallet) // Verification Checks
+
+    Inter(pallet) // Sound Checks
+
+// if key and inter both pass, then run the action Deploy()
+
+// for debug mode have key and inter run a series of prints for their values
+
+
+    // here will be function to execute the action. AFTER verifying all verification is 100% valid.
+
+
 //  if Fleet[hook].authLevel == "MAX"
 //  require screen on unlocked and biometrics and pin and final confirmation.
-  
- // elif == "NONE"
-  
-/*  
+
+    // elif == "NONE"
+
+    /*
   MAKE SOME BEEP WHEN REQUIRING CONFIRMATION RECOGNISABLE
   */
-}
+  }

@@ -1,4 +1,4 @@
-package com.atlasva
+package com.atlasva.space
 // This file gonna run the commands, and stores a library of exes and the verification levels and arg requirements. Kinda like concept py.
 
 // Defaults and Blueprint for all vals
