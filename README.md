@@ -1,0 +1,3 @@
+---------- Atlas -- Voice Assistant -------------
+
+Atlas is designed to be a blazing, innovative digital assistant, with many advanced features, such as custom wake words, customizable screen overlays, and a fixation on fast, local functions, instead of lazily handing everything to an AI. Atlas uses a custom intent engine, to minimise delay, and maximise available resources. In addition, Atlas is planned to have integrations with third-party APIs. Possible integrations include Google Maps, various music players, Home Assistant, and more.

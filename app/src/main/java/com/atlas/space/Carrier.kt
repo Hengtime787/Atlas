@@ -27,12 +27,6 @@ fun Launch(hook: String): Ships {
     return(frigate)
 }
 
-fun Deploy() {
-    println("this should run the action run vessel.action")
-    println("Falling for the promise of the emptiness machine.")
-}
-
-
 // TTS FUNCTION HERR
 
 // AUTHENTICATION //
@@ -108,6 +102,11 @@ fun Ease() {
     //plays the sound to indicate that its listening
     //call Ease in the service itself
     println("Sound.Chippy")
+}
+
+fun Deploy() {
+    println("this should run the action run vessel.action")
+    println("Falling for the promise of the emptiness machine.")
 }
 
 // NTS //
