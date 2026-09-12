@@ -10,6 +10,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.fromColorLong
 import androidx.compose.ui.tooling.preview.Preview
 import com.atlas.space.ui.theme.AtlasTheme
 
@@ -42,6 +43,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     AtlasTheme {
-        Greeting("Android")
+        Greeting("Matthew")
     }
+}
+
+@Composable
+fun Greetd() {
+    println("hello")
 }

@@ -58,6 +58,7 @@ fun Key(vessel: Ships) {
         // Back when we were still changing for the better
     }
     else {
+        println("// 16 // 16 // 16 // 16 //")
         println("ERROR 2")
         println("authLevel not found/defined.")
     }
@@ -103,6 +104,12 @@ fun Inter(vessel: Ships) {
 
 }
 
+fun Ease() {
+    //plays the sound to indicate that its listening
+    //call Ease in the service itself
+    println("Sound.Chippy")
+}
+
 // NTS //
 
 // MED . Screen is on and unlocked or will prompt unlock
@@ -110,12 +117,13 @@ fun Inter(vessel: Ships) {
 //\\ NTS \\//
 
 // RUNTIME //
-fun Fly() {
-    val request =
-        "Placeholder for stt input"// do a .strip AND a .lower to that as well (for keyword only!)
+fun Fly(request: String) {
+    //might as well just put the request in there and have it be requreied and just run it like taht yk.
+   /* val request =
+        "Placeholder for stt input"// do a .strip AND a .lower to that as well (for keyword only!)*/
     // hook = Resolve(request) //This is the real final intent
 
-    val hook = Rkesolve(request) // this is for keyword
+    val hook = Rkesolve(request.lowercase()) // this is for keyword
 
     val pallet = Launch(hook)
 
