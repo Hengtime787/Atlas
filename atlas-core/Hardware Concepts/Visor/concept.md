@@ -1,0 +1,1 @@
+fter scout scout synk to wypnts + loc arl
