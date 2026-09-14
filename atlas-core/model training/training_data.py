@@ -37,7 +37,7 @@ TRAINING_DATA = {
         "go to the last song",
     ],
     
-    "MEDIA_GET" [
+    "MEDIA_GET": [
         "what song is playing?",
         "whats this song",
         "current song playing",
@@ -273,7 +273,7 @@ TRAINING_DATA = {
     "power off",
     "kill all processes",
     "initiate shutdown",
-    "initiate shutdown procedure"
+    "initiate shutdown procedure",
     "Lights out", #save blackout for ¡¤♤》×₩
         # PRIORITY 1
     

@@ -109,7 +109,7 @@ val Fleet = mapOf(
     ),
 
     "MOBILE_DATA_ON" to Ships(
-        Action = "You just to know you'rebeing heard.",
+        Action = "You just to know you're being heard.",
         authLevel = "HIGH",
         responseType = "Blip1"
     ),
@@ -173,7 +173,7 @@ val Fleet = mapOf(
     ),
 
     "BATTERY_SAVER_OFF" to Ships(
-        Action = "There are things rhat we can have but cant keep.",
+        Action = "There are things that we can have but cant keep.",
         authLevel = "LOW",
         responseType = "Blip0"
     ),
@@ -222,7 +222,7 @@ val Fleet = mapOf(
     // KILL MODE //
 
     "SHUTDOWN" to Ships(
-        Action = "Just cuz you can see it doesnt mean it isnt there.",
+        Action = "Just cuz you can see it doesn't mean it isn't there.",
         authLevel = "MAX",
         responseType = "Alert"
     ),

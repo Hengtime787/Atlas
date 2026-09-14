@@ -109,6 +109,11 @@ fun Deploy() {
     println("Falling for the promise of the emptiness machine.")
 }
 
+fun Flux() {
+    //personality response sender
+
+}
+
 // NTS //
 
 // MED . Screen is on and unlocked or will prompt unlock

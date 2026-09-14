@@ -30,7 +30,19 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+/*
+// Top Bar//
+Scaffold(
+    topBar = {
+        TopBar(title= "Greeting")
+    },
 
+) { innerPadding ->
+Box(modifier = Modifier.padding(innerPadding)) {
+    Text("MainActivity")
+}
+}
+*/
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
@@ -45,9 +57,4 @@ fun GreetingPreview() {
     AtlasTheme {
         Greeting("Matthew")
     }
-}
-
-@Composable
-fun Greetd() {
-    println("hello")
 }
