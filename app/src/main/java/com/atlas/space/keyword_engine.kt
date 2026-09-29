@@ -19,7 +19,7 @@ fun Rkesolve(request: String): String {
         "now playing" in request -> "MEDIA_GET"
 
         "mute" in request -> "MUTE"
-        "unmute" in request -> "UNMUTE"
+        "unmute" in request -> "MUTE_OFF"
 
         // Module Control //
 

@@ -104,9 +104,10 @@ fun Ease() {
     println("Sound.Chippy")
 }
 
-fun Deploy() {
-    println("this should run the action run vessel.action")
-    println("Falling for the promise of the emptiness machine.")
+fun Deploy(vessel: Ships) {
+    println(vessel)//%$#^&
+    println(vessel.Exec)//@#$%^&
+
 }
 
 fun Flux() {
@@ -122,12 +123,14 @@ fun Flux() {
 
 // RUNTIME //
 fun Fly(request: String) {
-    //might as well just put the request in there and have it be requreied and just run it like taht yk.
+    //might as well just put the request in there and have it be required and just run it like taht yk.
    /* val request =
         "Placeholder for stt input"// do a .strip AND a .lower to that as well (for keyword only!)*/
     // hook = Resolve(request) //This is the real final intent
 
-    val hook = Rkesolve(request.lowercase()) // this is for keyword
+    val hook = Resolve(request)// also no need lowercase fastText is fire // this is for keyword
+
+    println(hook)
 
     val pallet = Launch(hook)
 
@@ -135,7 +138,19 @@ fun Fly(request: String) {
 
     Key(pallet) // Verification Checks
 
-    Inter(pallet) // Sound Checks
+    val lockedandloaded = true // would be passed in verification
+
+    if (lockedandloaded == true) {
+        Inter(pallet) // Sound Checks
+        Deploy(pallet)
+    }
+    else {
+        println("16 16 16 16 16 16 16 16 16")
+        println("ERROR 4")
+        println("ACTION NOT AUTHENTICATED")
+        //implememtn error sound pls
+    }
+
 
 // if key and inter both pass, then run the action Deploy()
 

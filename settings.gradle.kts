@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Atlas"
 include(":app")
+include(":nativelib")

@@ -53,7 +53,7 @@ TRAINING_DATA = {
     "turn the media volume off",
 ],
 
-"UNMUTE": [
+"MUTE_OFF": [
     "unmute the media",
     "unmute the music",
     "unmute",
@@ -217,6 +217,15 @@ TRAINING_DATA = {
     "deactivate power reserving protocol",
 ],
 
+# P TRIGGER_happy. FOR UNCLASSIFIED HOOKS
+
+"NONE": [
+    "blah blah blah",
+    "out should biscuit python sets",
+    "whisk off end grab tick",
+],
+
+# end TRIGGER HAPPY
 
     # PRIORITY 1
     

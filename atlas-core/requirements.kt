@@ -81,6 +81,15 @@ OPEN_<Appname> pfx
 
 SEARCH_ pfx use ai integration for a search. #most likely use gemini flash 3.5 api
 
+---------- System / Contact Integrations ---------
+
+PHONE_ - may have to take different apps
+MESSAGE_ - may have to take different apps
+
+------------ Reminder / Mark ----------------------
+
+MARK_ - may be able to take differnt apps? for sure integerate built in reminder profile
+
 ÷<£&÷<_%_#8×>$~7€|€●♡~¡{♤\€~}|■●♤~€£&£* Worry About This Last ×>£_£(÷:£<#&£\$□$●€~♡□♡$`€\}€8\€○€♡^%>÷,£&×[>=%7£<÷&)
 
 #<÷<%>£*#*#* PWROSNALITY _'AIRIRIP%&÷>%&%*>×*£*£_${8\$■♡}
