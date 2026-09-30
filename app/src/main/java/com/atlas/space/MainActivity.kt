@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold( modifier = Modifier.fillMaxSize() ) { innerPadding ->
                     @Composable
                     fun ButtonToStart() {
-                        ElevatedButton(onClick = { Fly("what's the date today") }) {
+                        ElevatedButton(onClick = { Fly("where is my banana") }) {
                             Text("AtlasVA")
                         }
                     }

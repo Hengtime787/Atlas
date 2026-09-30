@@ -17,7 +17,7 @@ object Adrenaline {
     private var modelFilePath: String? = null
 
     // 1. Called ONCE in MainActivity.onCreate(this) to unpack model.bin from assets
-    fun setup(context: Context, modelFileName: String = "model.bin") {
+    fun setup(context: Context, modelFileName: String = "starlight.ftz") {
         try {
             val file = File(context.filesDir, modelFileName)
             if (!file.exists()) {
