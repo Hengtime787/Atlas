@@ -1,4 +1,4 @@
-*.iml
+.iml
 .gradle
 /local.properties
 /.idea/caches
@@ -13,3 +13,14 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Model training files and binaries in atlas-core
+**/model training/*.bin
+**/model training/*.ftz
+**/model training/*.vec
+**/model training/intents.txt
+
+# Model files packaged in app assets
+/app/src/main/assets/*.bin
+/app/src/main/assets/*.ftz
+/app/src/main/assets/*.vec
