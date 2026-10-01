@@ -1,17 +1,28 @@
+
+// Note: Fuck conventions. My thoughts are messy, so my code is messy but in a beautiful way. //
+
 package com.atlas.space
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.ElevatedButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
 
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.tooling.preview.Preview
@@ -24,24 +35,42 @@ class MainActivity : ComponentActivity() {
         Adrenaline.setup(this)
 
         enableEdgeToEdge()
+
         setContent {
             AtlasTheme {
                 Scaffold( modifier = Modifier.fillMaxSize() ) { innerPadding ->
-                    @Composable
-                    fun ButtonToStart() {
-                        ElevatedButton(onClick = { Fly("where is my banana") }) {
-                            Text("AtlasVA")
-                        }
-                    }
-                    Box(
+
+                    var MyState by remember { mutableStateOf("") }
+                     val name = "Matthew"
+
+                    Column(
                         modifier = Modifier
                             .fillMaxSize()
                             .padding(innerPadding),
-                        contentAlignment = Alignment.Center
+                        verticalArrangement = Arrangement.Center,
+                        horizontalAlignment = Alignment.CenterHorizontally
 
                     ) {
-                        ButtonToStart()
+                        ElevatedButton(onClick = { Fly(MyState) }) {
+                            Text("Submit to Atlas")
+                        }
+                        //WayLessSad()
+                        OutlinedTextField(
+                            value = MyState,
+                            onValueChange = {London -> MyState = London},
+                            label = {
+                                Text("$name@Atlas_Interface")
+                            }
+
+                        )
+
+                       // Text()
+
+                        //StateTwin()
+
+                        // calling it inline ish kinda equivalent now
                     }
+
                     /*
                     Greeting(
                         name = "Matthew",
@@ -55,6 +84,23 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+/*
+@Composable
+fun StateTwin() {
+
+
+
+
+}
+*/
+/*@Composable
+fun WayLessSad() {
+    ElevatedButton(onClick = { Fly(MyState) }) {
+        Text("Submit to Atlas")
+    }
+}
+*/
 /*
 // Top Bar//
 Scaffold(
@@ -87,7 +133,7 @@ fun GreetingPreview() {
 /*
 @Preview(showBackground = true)
 @Composable
-fun ButtonToStart() {
+fun WayLessSad() {
     ElevatedButton(onClick = { Fly("what is the time") }) {
         Text("AtlasVA")
     }

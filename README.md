@@ -34,7 +34,7 @@ BATTERY_SAVER_ON
 BATTERY_SAVER_OFF
 BATTERY_LEVEL_STATUS_GET - ("Charging at 20%, [with battery saver (only if battery saver is on)]")
 
-         --- Dev Control ---
+-------------- Device Control -----------------
 
 BLUETOOTH_ON
 BLUETOOTH_OFF
@@ -67,3 +67,17 @@ p MARK_ - may be able to take different apps? for sure integrate built in remind
 SHUTDOWN
 REBOOT
 BLACKOUT (as explained above)
+
+------------------ External Device Control --------------------
+- p EXTERNAL_ACTIVATE_ pfx
+- p EXTERNAL_DEACTIVATE_ pfx
+- p
+- p
+
+------------------ Third Party Libraries ---------------------
+
+Thank you to all open source libraries listed below! I am not affiliated with any projects shown below, and am just utilising them.
+
+-- Fasttext (https://github.com/facebookresearch/fastText/) == Used for text classification, (vital step in intent engine).
+
+############## LICENSE FILES LOCATED IN root/LISCENSES folder ###############
