@@ -122,7 +122,7 @@ fun Flux() {
 //\\ NTS \\//
 
 // RUNTIME //
-fun Fly(request: String) {
+fun Fly(request: String): String /* <------- ^^^ REMOVE IN FINAL THIS ONLY HERE FOR MAINACTIVITY TESTS*/ {
     //might as well just put the request in there and have it be required and just run it like taht yk.
    /* val request =
         "Placeholder for stt input"// do a .strip AND a .lower to that as well (for keyword only!)*/
@@ -149,9 +149,8 @@ fun Fly(request: String) {
         println("ERROR 4")
         println("ACTION NOT AUTHENTICATED")
         //implememtn error sound pls
+
     }
-
-
 // if key and inter both pass, then run the action Deploy()
 
 // for debug mode have key and inter run a series of prints for their values
@@ -168,4 +167,5 @@ fun Fly(request: String) {
     /*
   MAKE SOME BEEP WHEN REQUIRING CONFIRMATION RECOGNISABLE
   */
+    return hook // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ REMOVE FOR FINAL!!!!!!!!!!!!!!!!!!! TRHIS RETURN IS ONLY HERE FOR MAINACTIVITY TESTING
 }

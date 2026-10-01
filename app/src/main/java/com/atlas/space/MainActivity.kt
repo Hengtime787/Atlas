@@ -41,6 +41,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold( modifier = Modifier.fillMaxSize() ) { innerPadding ->
 
                     var MyState by remember { mutableStateOf("") }
+                    var Nashville by remember { mutableStateOf("") }
                      val name = "Matthew"
 
                     Column(
@@ -51,8 +52,8 @@ class MainActivity : ComponentActivity() {
                         horizontalAlignment = Alignment.CenterHorizontally
 
                     ) {
-                        ElevatedButton(onClick = { Fly(MyState) }) {
-                            Text("Submit to Atlas")
+                        ElevatedButton(onClick = { Nashville = Fly(MyState) }) {
+                            Text(Nashville)
                         }
                         //WayLessSad()
                         OutlinedTextField(
@@ -64,7 +65,7 @@ class MainActivity : ComponentActivity() {
 
                         )
 
-                       // Text()
+                        Text(Nashville)
 
                         //StateTwin()
 
