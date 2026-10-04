@@ -4,11 +4,10 @@ package com.atlas.space
 
 /*Import list:
 
-intent_engine.kt #/#* take in Resolve() or something
+intent_engine.kt #/#* take in Resolve()
 
 */
 
-/* no more AI */
 // adaption of core.py.
 //heavily modified adaptation lol
 // placeholders are marked by linkin park lyrics
@@ -138,17 +137,18 @@ fun Fly(request: String): String /* <------- ^^^ REMOVE IN FINAL THIS ONLY HERE 
 
     Key(pallet) // Verification Checks
 
-    val lockedandloaded = true // would be passed in verification
+    val bleeditout = true // would be passed in verification
 
-    if (lockedandloaded == true) {
+    if (bleeditout == true) {
         Inter(pallet) // Sound Checks
         Deploy(pallet)
     }
+
     else {
         println("16 16 16 16 16 16 16 16 16")
         println("ERROR 4")
         println("ACTION NOT AUTHENTICATED")
-        //implememtn error sound pls
+        //implement error sound pls
 
     }
 // if key and inter both pass, then run the action Deploy()
@@ -158,7 +158,6 @@ fun Fly(request: String): String /* <------- ^^^ REMOVE IN FINAL THIS ONLY HERE 
 
     // here will be function to execute the action. AFTER verifying all verification is 100% valid.
 
-
 //  if Fleet[hook].authLevel == "MAX"
 //  require screen on unlocked and biometrics and pin and final confirmation.
 
@@ -167,5 +166,5 @@ fun Fly(request: String): String /* <------- ^^^ REMOVE IN FINAL THIS ONLY HERE 
     /*
   MAKE SOME BEEP WHEN REQUIRING CONFIRMATION RECOGNISABLE
   */
-    return hook // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ REMOVE FOR FINAL!!!!!!!!!!!!!!!!!!! TRHIS RETURN IS ONLY HERE FOR MAINACTIVITY TESTING
+    return hook // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ REMOVE FOR FINAL!!!!!!!!!!!!!!!!!!! THIS RETURN IS ONLY HERE FOR MAINACTIVITY TESTING
 }

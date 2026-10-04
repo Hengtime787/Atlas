@@ -1,3 +1,8 @@
+------------------------------------- IMPORTANT ----------------------------------------
+    If you wish to fork or use Atlas, I do kindly ask that you do not use artificial intelligence to substantially rewrite it, or pass any code off as your own. As I have now way of enforcing this past the legal GPL license that is automatically in effect when you use my project, please do try to be honest, and notify me of any projects regarding the use of Atlas. Thanks!
+
+
+
 ---------- Atlas -- Voice Assistant -------------
 
 Atlas is designed to be a blazing, innovative digital assistant, with many advanced features, such as custom wake words, customizable screen overlays, and a fixation on fast, local functions, instead of lazily handing everything to an AI. Atlas uses a custom intent engine, to minimise delay, and maximise available resources. In addition, Atlas is planned to have integrations with third-party APIs. Possible integrations include Google Maps, various music players, Home Assistant, and more.
