@@ -25,6 +25,9 @@ fun main() {
 
 Ease() // sound saying 'im listening"
 
-Fly(command)
+val burn = Fly(command)
+    
+println("burn it down")
+
 
 }

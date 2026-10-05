@@ -111,7 +111,7 @@ fun Deploy(vessel: Ships) {
 
 fun Flux() {
     //personality response sender
-
+    
 }
 
 // NTS //
